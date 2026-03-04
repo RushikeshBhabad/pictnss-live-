@@ -4,89 +4,6 @@
  */
 
 export const activities = [
-  // MOCK ACTIVITIES FOR 2026
-  {
-    id: "2026_online_teaching",
-    year: 2026,
-    title: "Online Teaching Initiative",
-    thumbnail: "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?w=400&h=300&fit=crop",
-    shortDescription: "Taught 200+ underprivileged students during COVID lockdown.",
-    description: `During the COVID-19 lockdown, PICT NSS volunteers initiated an online teaching program for underprivileged students who lacked access to quality education.
-
-Volunteers taught subjects like Mathematics, Science, and English through video calls. For students without internet access, recorded video lessons were shared via WhatsApp.
-
-This initiative ensured that the pandemic did not disrupt the education of these children, and many showed significant improvement in their studies.`,
-    date: "April-December 2026",
-    location: "Online",
-    volunteers: 100,
-    gallery: [
-      "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1610484826967-09c5720778c7?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1577896851231-70ef18881754?w=600&h=400&fit=crop",
-    ]
-  },
-  {
-    id: "2026_mask_distribution",
-    year: 2026,
-    title: "Mask Distribution Drive",
-    thumbnail: "https://images.unsplash.com/photo-1584634731339-252c581abfc5?w=400&h=300&fit=crop",
-    shortDescription: "Distributed 5000+ masks to underprivileged communities.",
-    description: `Responding to the urgent need during the pandemic, PICT NSS volunteers distributed over 5000 masks to underprivileged communities. Many volunteers also made cloth masks at home.
-
-Distribution was done maintaining proper safety protocols. Along with masks, hand sanitizers and awareness pamphlets about COVID prevention were also distributed.
-
-This initiative helped protect many vulnerable individuals and communities during the critical phase of the pandemic.`,
-    date: "June 2026",
-    location: "Slum Areas in Pune",
-    volunteers: 80,
-    gallery: [
-      "https://images.unsplash.com/photo-1584634731339-252c581abfc5?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1586942593568-29361efef5f6?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1609921205586-7e8a57516512?w=600&h=400&fit=crop",
-    ]
-  },
-  {
-    id: "2026_mental_health",
-    year: 2026,
-    title: "Mental Health Awareness",
-    thumbnail: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=400&h=300&fit=crop",
-    shortDescription: "Online sessions addressing mental health during pandemic.",
-    description: `Recognizing the mental health challenges during the pandemic, PICT NSS organized online mental health awareness sessions. Professional counselors were invited to address various psychological issues.
-
-Topics covered included coping with isolation, managing anxiety, dealing with academic pressure, and maintaining healthy relationships. Anonymous Q&A sessions allowed participants to freely discuss their concerns.
-
-The sessions were well-received, with many participants expressing relief and gratitude for having a platform to discuss mental health openly.`,
-    date: "September 2026",
-    location: "Online Webinars",
-    volunteers: 30,
-    gallery: [
-      "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&h=400&fit=crop",
-    ]
-  },
-  {
-    id: "2026_police_mitra_dagdusheth",
-    year: 2026,
-    title: "Police Mitra – Dagdusheth Ganpati Planning & Crowd Management",
-    thumbnail: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop", // reused from Road Safety
-    shortDescription: "Assisted Pune Police in crowd and queue management during Dagdusheth Ganpati festival.",
-    description: `As part of the Police Mitra initiative, PICT NSS volunteers supported Pune Police during the Dagdusheth Ganpati festival. Duties included crowd flow management, guiding senior citizens, maintaining safety lanes, assisting lost-and-found booths, and coordinating during the Maha Aarti rush hours.
-
-Volunteers were stationed at key points around the mandir under the guidance of police officials. This activity gave students real-world exposure to large-scale event planning, discipline, and civic responsibility.`,
-    date: "September 12, 2026",
-    location: "Shreemant Dagdusheth Halwai Ganpati Mandir, Pune",
-    volunteers: 120,
-    gallery: [
-      // Road Safety (best police/crowd images)
-      "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=400&fit=crop",
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
-
-      // Anti-Drug Rally (crowd movement)
-      "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&h=400&fit=crop"
-    ]
-  },
   // 2025 Activities
   {
     id: "2025_vachan_sankalpa",
@@ -896,6 +813,89 @@ This collective recitation served as a reminder of the foundational pillars of o
     gallery: [
       "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=400&fit=crop",
       "https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=600&h=400&fit=crop",
+    ]
+  },
+  // ACTIVITIES FOR 2021
+  {
+    id: "2021_online_teaching",
+    year: 2021,
+    title: "Online Teaching Initiative",
+    thumbnail: "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?w=400&h=300&fit=crop",
+    shortDescription: "Taught 200+ underprivileged students during COVID lockdown.",
+    description: `During the COVID-19 lockdown, PICT NSS volunteers initiated an online teaching program for underprivileged students who lacked access to quality education.
+
+Volunteers taught subjects like Mathematics, Science, and English through video calls. For students without internet access, recorded video lessons were shared via WhatsApp.
+
+This initiative ensured that the pandemic did not disrupt the education of these children, and many showed significant improvement in their studies.`,
+    date: "April-December 2021",
+    location: "Online",
+    volunteers: 100,
+    gallery: [
+      "https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1610484826967-09c5720778c7?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1577896851231-70ef18881754?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2021_mask_distribution",
+    year: 2021,
+    title: "Mask Distribution Drive",
+    thumbnail: "https://images.unsplash.com/photo-1584634731339-252c581abfc5?w=400&h=300&fit=crop",
+    shortDescription: "Distributed 5000+ masks to underprivileged communities.",
+    description: `Responding to the urgent need during the pandemic, PICT NSS volunteers distributed over 5000 masks to underprivileged communities. Many volunteers also made cloth masks at home.
+
+Distribution was done maintaining proper safety protocols. Along with masks, hand sanitizers and awareness pamphlets about COVID prevention were also distributed.
+
+This initiative helped protect many vulnerable individuals and communities during the critical phase of the pandemic.`,
+    date: "June 2021",
+    location: "Slum Areas in Pune",
+    volunteers: 80,
+    gallery: [
+      "https://images.unsplash.com/photo-1584634731339-252c581abfc5?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1586942593568-29361efef5f6?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1609921205586-7e8a57516512?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2021_mental_health",
+    year: 2021,
+    title: "Mental Health Awareness",
+    thumbnail: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=400&h=300&fit=crop",
+    shortDescription: "Online sessions addressing mental health during pandemic.",
+    description: `Recognizing the mental health challenges during the pandemic, PICT NSS organized online mental health awareness sessions. Professional counselors were invited to address various psychological issues.
+
+Topics covered included coping with isolation, managing anxiety, dealing with academic pressure, and maintaining healthy relationships. Anonymous Q&A sessions allowed participants to freely discuss their concerns.
+
+The sessions were well-received, with many participants expressing relief and gratitude for having a platform to discuss mental health openly.`,
+    date: "September 2021",
+    location: "Online Webinars",
+    volunteers: 30,
+    gallery: [
+      "https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&h=400&fit=crop",
+    ]
+  },
+  {
+    id: "2021_police_mitra_dagdusheth",
+    year: 2021,
+    title: "Police Mitra – Dagdusheth Ganpati Planning & Crowd Management",
+    thumbnail: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop", // reused from Road Safety
+    shortDescription: "Assisted Pune Police in crowd and queue management during Dagdusheth Ganpati festival.",
+    description: `As part of the Police Mitra initiative, PICT NSS volunteers supported Pune Police during the Dagdusheth Ganpati festival. Duties included crowd flow management, guiding senior citizens, maintaining safety lanes, assisting lost-and-found booths, and coordinating during the Maha Aarti rush hours.
+
+Volunteers were stationed at key points around the mandir under the guidance of police officials. This activity gave students real-world exposure to large-scale event planning, discipline, and civic responsibility.`,
+    date: "September 12, 2021",
+    location: "Shreemant Dagdusheth Halwai Ganpati Mandir, Pune",
+    volunteers: 120,
+    gallery: [
+      // Road Safety (best police/crowd images)
+      "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+
+      // Anti-Drug Rally (crowd movement)
+      "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&h=400&fit=crop"
     ]
   },
 ];
