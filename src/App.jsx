@@ -5,6 +5,7 @@
  */
 
 import React from 'react';
+import { useLocation } from "react-router-dom";  /*For page scrolling issue*/
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // Components
@@ -20,18 +21,19 @@ import Camps from './pages/Camps';
 import CampYear from './pages/CampYear';
 import CampDetails from './pages/CampDetails';
 import CampActivityDetails from './pages/CampActivityDetails';
+import SchoolTeaching from './pages/SchoolTeaching';
 import Gallery from './pages/Gallery';
 import Team from './pages/Team';
 import Magazine from './pages/Magazine';
+import SchoolTeachingDetails from './pages/SchoolTeachingDetails';
 
-// Scroll to top component
 const ScrollToTop = () => {
-  const { pathname } = window.location;
-  
+  const location = useLocation();
+
   React.useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-  
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+  }, [location.key]);
+
   return null;
 };
 
@@ -63,41 +65,46 @@ const NotFound = () => (
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App min-h-screen flex flex-col">
         {/* Navigation Bar */}
         <Navbar />
-        
+
         {/* Main Content Area */}
         <main className="flex-grow">
           <Routes>
             {/* Home Page */}
             <Route path="/" element={<Home />} />
-            
+
             {/* Activities Routes */}
             <Route path="/activities" element={<Activities />} />
             <Route path="/activities/:year" element={<ActivityYear />} />
             <Route path="/activities/:year/:id" element={<ActivityDetails />} />
-            
+
             {/* Camps Routes */}
             <Route path="/camps" element={<Camps />} />
             <Route path="/camps/:year" element={<CampYear />} />
             <Route path="/camps/:year/:id" element={<CampDetails />} />
             <Route path="/camps/:year/:id/activity/:activityId" element={<CampActivityDetails />} />
-            
+
+            {/*School Teaching*/}
+            <Route path="/schoolteaching" element={<SchoolTeaching />} />
+            <Route path="/schoolteaching/:id" element={<SchoolTeachingDetails />} />
+
             {/* Magazine Page */}
             <Route path="/magazine" element={<Magazine />} />
-            
+
             {/* Gallery Page */}
             <Route path="/gallery" element={<Gallery />} />
-            
+
             {/* Team Page */}
             <Route path="/team" element={<Team />} />
-            
+
             {/* 404 Not Found - Catch all unmatched routes */}
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
-        
+
         {/* Footer */}
         <Footer />
       </div>
