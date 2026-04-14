@@ -65,6 +65,15 @@ export const teamMembers = {
       profilePic: "/about/snehal.jpeg",
       quote: "",
       linkedin: "https://www.linkedin.com/in/snehal-phatale-388221362/",
+    },
+    {
+      id: 24,
+      name: "Anannaya Agarwal",
+      role: "NSS Volunteer & Developer",
+      year: "",
+      profilePic: "about/Anannya_agrawal.jpeg",
+      quote: "",
+      linkedin: "https://www.linkedin.com/in/anannaya-agarwal/",
     }
   ],
 
